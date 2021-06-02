@@ -1,0 +1,79 @@
+body {
+background: #000;
+color: #fff;
+}
+
+h1, p {
+	margin: 7px;
+}
+#show { color: #0f0; }
+#hide { color: #f00; }
+
+.inputA {
+	width: 100%;
+	background-color: #4caf50;
+	display: inline-block;
+	color: #000;
+	padding: 14px 1px;
+	margin: 3px 0px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	direction: rtl;
+}
+
+.inputB {
+	display: inline-block;
+	color: #000;
+	padding: 14px 1px;
+	margin: 7px 0px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+div {
+	padding: 0px;
+	max-width: 400px;
+	text-align: center;
+}
+svg {
+	background: #000;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin:0;
+}
+polygon {
+	stroke: #0a0;
+	stroke-width:1;
+	fill: #030;
+	vector-effect: non-scaling-stroke;
+}
+line {
+	opacity: 0.5;
+	stroke: #333;
+	stroke-width:1;
+	vector-effect: non-scaling-stroke;
+}
+.l1 {
+	stroke: #0aa;
+}
+.l0 {
+	stroke: #fff;
+	opacity: 1;
+	stroke-width: 1;
+}
+#last_line {
+	opacity: 1;
+	stroke: #aa0;
+	stroke-width:1;
+	vector-effect: non-scaling-stroke;			
+}
